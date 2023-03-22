@@ -1,0 +1,46 @@
+.container{
+    display: none;
+}
+.home{
+    display: block;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: white;
+    color: black;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(249, 249, 53, 0.261);
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    display: none;
+
+}
+.modal-box{
+    width: 450px;
+    height: 200px;
+    border: 1px solid gray;
+    background-color: bisque;
+    padding: 10px 20px;
+    margin: 0 auto;
+    
+}
+.moda-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modal-btn{
+    height: 30px;
+    width: 30px;
+    background-color: coral;
+    border: none;
+    cursor: pointer;
+}
